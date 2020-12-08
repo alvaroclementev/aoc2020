@@ -52,7 +52,7 @@ def solve(parsed_map, x_change=3, y_change=1):
 
 
 # Solution for #1
-parsed_map = parse_map("input3.txt")
+parsed_map = parse_map("input.txt")
 print(solve(parsed_map))
 
 # Solution for #2

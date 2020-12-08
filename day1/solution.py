@@ -4,7 +4,7 @@ Solutions to Day 1 of Advent of Code by Alvaro Clemente
 from itertools import combinations
 
 # Parse input
-with open("input1.txt", "r") as f:
+with open("input.txt", "r") as f:
     lines = f.readlines()
     nums = [int(x.strip()) for x in lines]
 

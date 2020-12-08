@@ -23,7 +23,7 @@ def parse_line(line):
 
 
 # Parse input
-with open("input2.txt", "r") as f:
+with open("input.txt", "r") as f:
     lines = f.readlines()
     parts = list(map(parse_line, lines))  # Make it a list so that it is not consumed
 

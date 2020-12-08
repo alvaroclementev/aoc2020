@@ -84,7 +84,7 @@ def solve(passports, validators=None):
 
 
 # Parsed input
-passports = parse_input("input4.txt")
+passports = parse_input("input.txt")
 
 # Solution for #1
 print(solve(passports))
